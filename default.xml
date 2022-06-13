@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
-  <default remote="clo" revision="partner-android/s-fs-release"/>
+  <default remote="clo" revision="refs/tags/LA.QSSI.12.0.r1-07800-qssi.0"/>
   <project groups="aosp-android12-release,device,pdk,yukawa,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" name="device/amlogic/yukawa" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
   <project clone-depth="2" groups="aosp-android12-release,device,pdk,yukawa,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" name="device/amlogic/yukawa-kernel" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
   <project groups="aosp-android12-release,pdk,pdk-cw-fs,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" name="device/common" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
@@ -1022,5 +1022,8 @@
   <project groups="aosp-android12-release,pdk,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" name="toolchain/llvm-project" path="external/llvm-project" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
   <project groups="aosp-android12-release,pdk,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_exc_L3" name="toolchain/pgo-profiles" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
   <project groups="aosp-android12-release,pdk,pdk-cw-fs,pdk-fs,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" name="tools/platform-compat" revision="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
+
+  <!--Track SMxxx0 vendor -->
+  <include name="vendor.xml"/>
 </manifest>
 
