@@ -6,6 +6,9 @@
   </project>
   <project dest-branch="refs/heads/sepolicy.vndr.lnx.1.0" name="device/qcom/sepolicy_vndr" revision="36b25d0b718445c0aeab52863d46b6d1ef6214f4" upstream="refs/heads/sepolicy.vndr.lnx.1.0"/>
   <project dest-branch="refs/heads/qcom-devices.lnx.6.0" name="device/qcom/vendor-common" revision="e338190f35b670cff35bdf286d7ca2b4b6a3c2bc" upstream="refs/heads/qcom-devices.lnx.6.0"/>
+  <project name="kernel/build" path="device/qcom/kernelscripts" revision="c388242056d3bbadbb285b1a545e721650a728b9" upstream="refs/heads/kernel.lnx.5.4.r1-rel">
+    <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
+  </project>
   <project dest-branch="refs/heads/msm-4.14.c12" name="kernel/msm-4.14" revision="b4aafc46ddc47c835964ca9e0ec5e9adc9b2109e" upstream="refs/heads/msm-4.14.c12">
     <linkfile dest="kernel/msm-4.14/Android.bp" src="Androidbp"/>
   </project>
